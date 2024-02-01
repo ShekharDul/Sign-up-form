@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  overflow: hidden;
 }
 
 #image {
@@ -24,8 +25,8 @@ body {
   height: 50vh;
   color: white;
   background-color: black;
-  transition: background-color 0.3s ease-in-out;
-  transition: color 0.5s ease-in-out;
+  transition: background-color 1s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 #quote:hover {
   background-color: aliceblue;
@@ -77,4 +78,18 @@ label {
 
 input {
   margin: 5px;
+}
+
+
+#first_name:focus {
+  border: 1px solid red;
+  outline: none;
+}
+#last_name:focus {
+  border: 1px solid red;
+  outline: none;
+}
+#email:focus {
+  border: 1px solid red;
+  outline: none;
 }
